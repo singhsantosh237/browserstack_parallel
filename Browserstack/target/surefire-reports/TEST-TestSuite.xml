@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="83.5" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/santoshsingh/Desktop/Browserstack/target/test-classes:/Users/santoshsingh/Desktop/Browserstack/target/classes:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-java/4.11.0/selenium-java-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-api/4.11.0/selenium-api-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.11.0/selenium-chrome-driver-4.11.0.jar:/Users/santoshsingh/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/santoshsingh/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/santoshsingh/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/santoshsingh/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/santoshsingh/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/santoshsingh/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/santoshsingh/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/santoshsingh/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.11.0/selenium-chromium-driver-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-json/4.11.0/selenium-json-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.11.0/selenium-manager-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v113/4.11.0/selenium-devtools-v113-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v114/4.11.0/selenium-devtools-v114-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v115/4.11.0/selenium-devtools-v115-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.11.0/selenium-devtools-v85-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.11.0/selenium-edge-driver-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.11.0/selenium-firefox-driver-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-http/4.11.0/selenium-http-4.11.0.jar:/Users/santoshsingh/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.11.0/selenium-ie-driver-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.11.0/selenium-remote-driver-4.11.0.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-buffer/4.1.92.Final/netty-buffer-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-codec-http/4.1.92.Final/netty-codec-http-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-codec/4.1.92.Final/netty-codec-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-handler/4.1.92.Final/netty-handler-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-common/4.1.92.Final/netty-common-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.92.Final/netty-transport-classes-epoll-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.92.Final/netty-transport-classes-kqueue-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-transport-native-epoll/4.1.92.Final/netty-transport-native-epoll-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.92.Final/netty-transport-native-kqueue-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.92.Final/netty-transport-native-unix-common-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-transport/4.1.92.Final/netty-transport-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-resolver/4.1.92.Final/netty-resolver-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-api/1.26.0/opentelemetry-api-1.26.0.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-context/1.26.0/opentelemetry-context-1.26.0.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.26.0/opentelemetry-exporter-logging-1.26.0.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.26.0/opentelemetry-sdk-metrics-1.26.0.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.26.0-alpha/opentelemetry-extension-incubator-1.26.0-alpha.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.26.0-alpha/opentelemetry-sdk-logs-1.26.0-alpha.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.26.0-alpha/opentelemetry-api-logs-1.26.0-alpha.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.26.0-alpha/opentelemetry-api-events-1.26.0-alpha.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.26.0/opentelemetry-sdk-common-1.26.0.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.26.0/opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.26.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.26.0/opentelemetry-sdk-trace-1.26.0.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.26.0/opentelemetry-sdk-1.26.0.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.26.0-alpha/opentelemetry-semconv-1.26.0-alpha.jar:/Users/santoshsingh/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/Users/santoshsingh/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/santoshsingh/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/santoshsingh/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/santoshsingh/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/santoshsingh/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/santoshsingh/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.11.0/selenium-safari-driver-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-support/4.11.0/selenium-support-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/santoshsingh/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/santoshsingh/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/santoshsingh/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/santoshsingh/.m2/repository/com/browserstack/browserstack-java-sdk/1.20.2/browserstack-java-sdk-1.20.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="cucumber.execution.parallel.config.fixed.parallelism" value="1"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="OBSERVABILITY_BUILD_HASHED_ID" value="xcgnwgy5yojgvi5vbch4sffrtunznmfjikjlpog4"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="cucumber.execution.parallel.enabled" value="true"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="junit.jupiter.execution.parallel.config.fixed.max-pool-size" value="1"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-18.0.2.jdk/Contents/Home/lib"/>
+    <property name="OBSERVABILITY_ALLOW_SCREENSHOTS" value="true"/>
+    <property name="sun.java.command" value="/Users/santoshsingh/Desktop/Browserstack/target/surefire/surefirebooter17162869433643467638.jar /Users/santoshsingh/Desktop/Browserstack/target/surefire 2024-08-07T14-25-20_648-jvmRun1 surefire10678044081131553314tmp surefire_08440123525173951883tmp"/>
+    <property name="BROWSERSTACK_TESTHUB_JWT" value="eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiI4ODE4MTE5IiwiZ3JvdXBfaWQiOjg3MzE0MzMsInVzZXJfaWQiOjg4MTgxMTksImJ1aWxkX2hhc2hlZF9pZCI6InhjZ253Z3k1eW9qZ3ZpNXZiY2g0c2ZmcnR1bnpubWZqaWtqbHBvZzQiLCJwcm9qZWN0X25hbWUiOiJCcm93c2VyU3RhY2sgU2FtcGxlIiwiaG9va19hc190ZXN0IjoiMSIsImJ1aWxkX25hbWUiOiJicm93c2Vyc3RhY2stYnVpbGQiLCJwcm9kdWN0X21hcCI6IntcIm9ic2VydmFiaWxpdHlcIjp0cnVlfSIsImdycl9yZWdpb24iOiIiLCJzaWduaW5nX2tleV9oYXNoIjoiNTc4ZmNjNDA2MDY4OTI4ZjMyNzQ2NGZkY2UwNWJiYzNlYWQ3YWVjMDMwN2NlNmJlNWQzOGRhYTQ3MDI2NDg5NiIsImlhdCI6MTcyMzAyMDkyOSwiZXhwIjoxNzIzMzY2NTI5fQ.40Gym4Cbdl7EVp1TtoaJyyIJHR32qsWo3MPYkkz5aLY"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/santoshsingh/Desktop/Browserstack/target/test-classes:/Users/santoshsingh/Desktop/Browserstack/target/classes:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-java/4.11.0/selenium-java-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-api/4.11.0/selenium-api-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.11.0/selenium-chrome-driver-4.11.0.jar:/Users/santoshsingh/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/santoshsingh/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/santoshsingh/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/santoshsingh/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/santoshsingh/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/santoshsingh/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/santoshsingh/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/santoshsingh/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.11.0/selenium-chromium-driver-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-json/4.11.0/selenium-json-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.11.0/selenium-manager-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v113/4.11.0/selenium-devtools-v113-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v114/4.11.0/selenium-devtools-v114-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v115/4.11.0/selenium-devtools-v115-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.11.0/selenium-devtools-v85-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.11.0/selenium-edge-driver-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.11.0/selenium-firefox-driver-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-http/4.11.0/selenium-http-4.11.0.jar:/Users/santoshsingh/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.11.0/selenium-ie-driver-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.11.0/selenium-remote-driver-4.11.0.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-buffer/4.1.92.Final/netty-buffer-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-codec-http/4.1.92.Final/netty-codec-http-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-codec/4.1.92.Final/netty-codec-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-handler/4.1.92.Final/netty-handler-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-common/4.1.92.Final/netty-common-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.92.Final/netty-transport-classes-epoll-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.92.Final/netty-transport-classes-kqueue-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-transport-native-epoll/4.1.92.Final/netty-transport-native-epoll-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.92.Final/netty-transport-native-kqueue-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.92.Final/netty-transport-native-unix-common-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-transport/4.1.92.Final/netty-transport-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-resolver/4.1.92.Final/netty-resolver-4.1.92.Final.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-api/1.26.0/opentelemetry-api-1.26.0.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-context/1.26.0/opentelemetry-context-1.26.0.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.26.0/opentelemetry-exporter-logging-1.26.0.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.26.0/opentelemetry-sdk-metrics-1.26.0.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.26.0-alpha/opentelemetry-extension-incubator-1.26.0-alpha.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.26.0-alpha/opentelemetry-sdk-logs-1.26.0-alpha.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.26.0-alpha/opentelemetry-api-logs-1.26.0-alpha.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.26.0-alpha/opentelemetry-api-events-1.26.0-alpha.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.26.0/opentelemetry-sdk-common-1.26.0.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.26.0/opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.26.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.26.0/opentelemetry-sdk-trace-1.26.0.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.26.0/opentelemetry-sdk-1.26.0.jar:/Users/santoshsingh/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.26.0-alpha/opentelemetry-semconv-1.26.0-alpha.jar:/Users/santoshsingh/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/Users/santoshsingh/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/santoshsingh/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/santoshsingh/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/santoshsingh/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/santoshsingh/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/santoshsingh/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/santoshsingh/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.11.0/selenium-safari-driver-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/seleniumhq/selenium/selenium-support/4.11.0/selenium-support-4.11.0.jar:/Users/santoshsingh/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/santoshsingh/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/santoshsingh/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/santoshsingh/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/santoshsingh/.m2/repository/com/browserstack/browserstack-java-sdk/1.20.2/browserstack-java-sdk-1.20.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/santoshsingh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-18.0.2.jdk/Contents/Home"/>
+    <property name="junit.jupiter.execution.parallel.mode.default" value="same_thread"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/santoshsingh/Desktop/Browserstack"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/santoshsingh/Desktop/Browserstack/target/surefire/surefirebooter17162869433643467638.jar"/>
+    <property name="BasicInitializer@2" value="2"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="BasicInitializer@3" value="3"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="BasicInitializer@0" value="0"/>
+    <property name="BasicInitializer@1" value="1"/>
+    <property name="java.runtime.version" value="18.0.2+9-61"/>
+    <property name="user.name" value="santoshsingh"/>
+    <property name="BasicInitializer@4" value="4"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="junit.jupiter.execution.parallel.mode.classes.default" value="concurrent"/>
+    <property name="junit.jupiter.execution.parallel.config.strategy" value="fixed"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="junit.jupiter.execution.parallel.enabled" value="true"/>
+    <property name="localRepository" value="/Users/santoshsingh/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/3t/dcwpjh_d6kg8fx73d_3spkth0000gn/T/"/>
+    <property name="BROWSERSTACK_TESTHUB_UUID" value="xcgnwgy5yojgvi5vbch4sffrtunznmfjikjlpog4"/>
+    <property name="java.version" value="18.0.2"/>
+    <property name="user.dir" value="/Users/santoshsingh/Desktop/Browserstack"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/santoshsingh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="junit.jupiter.execution.parallel.config.fixed.parallelism" value="1"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2+9-61"/>
+    <property name="cucumber.execution.execution-mode.feature" value="same_thread"/>
+    <property name="cucumber.execution.parallel.config.strategy" value="fixed"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="flipkartSearchFeature" classname="parallel_Testing.parallelTest" time="21.315">
+    <system-out><![CDATA[WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+Links found: 24
+Prices found: 24
+Model names found: 24
+The Model Name is: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 512 GB), 
+ Price of model is: ₹1,39,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-512-gb/p/itm463827d6eb2be?pid=MOBGX2F3XNW3HK8K&lid=LSTMOBGX2F3XNW3HK8KCQXMCT&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_1&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBGX2F3XNW3HK8K.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+Links found: 24
+Prices found: 24
+Model names found: 24
+The Model Name is: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 512 GB), 
+ Price of model is: ₹1,39,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-512-gb/p/itmb65a445764f10?pid=MOBGX2F3PHGQHXSB&lid=LSTMOBGX2F3PHGQHXSBOO4CVF&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_1&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBGX2F3PHGQHXSB.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 256 GB), 
+ Price of model is: ₹1,29,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-256-gb/p/itm12ef5ea0212ed?pid=MOBGX2F3RQKKKTAW&lid=LSTMOBGX2F3RQKKKTAWKAVWET&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_2&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBGX2F3RQKKKTAW.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 Ultra 5G (Titanium Black, 256 GB), 
+ Price of model is: ₹1,29,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-black-256-gb/p/itm7d3b6b5d0f501?pid=MOBGX2F3QGZYYZAK&lid=LSTMOBGX2F3QGZYYZAKNETZ3C&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_2&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBGX2F3QGZYYZAK.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 256 GB), 
+ Price of model is: ₹1,29,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-256-gb/p/itmd4f51262e3e6b?pid=MOBGX2F38JBJGZSE&lid=LSTMOBGX2F38JBJGZSELMVCH5&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBGX2F38JBJGZSE.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 256 GB), 
+ Price of model is: ₹1,29,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-256-gb/p/itm12ef5ea0212ed?pid=MOBGX2F3RQKKKTAW&lid=LSTMOBGX2F3RQKKKTAWKAVWET&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBGX2F3RQKKKTAW.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 Ultra 5G (Titanium Yellow, 256 GB), 
+ Price of model is: ₹1,29,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-yellow-256-gb/p/itmeda50bc408d7d?pid=MOBHFRB2F96W6YYS&lid=LSTMOBHFRB2F96W6YYSRNYU8G&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_4&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBHFRB2F96W6YYS.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 Ultra 5G (Cream, 512 GB), 
+ Price of model is: ₹1,24,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-512-gb/p/itm1db5d333d4ee1?pid=MOBGMFFXEHJGRUXK&lid=LSTMOBGMFFXEHJGRUXKYBVAQY&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_4&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBGMFFXEHJGRUXK.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 Ultra 5G (Cream, 512 GB), 
+ Price of model is: ₹1,24,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-512-gb/p/itm1db5d333d4ee1?pid=MOBGMFFXEHJGRUXK&lid=LSTMOBGMFFXEHJGRUXKYBVAQY&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_5&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBGMFFXEHJGRUXK.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24+ 5G (Onyx Black, 512 GB), 
+ Price of model is: ₹1,04,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itme2d93d42550ad?pid=MOBGX2F3YAZ6MRCQ&lid=LSTMOBGX2F3YAZ6MRCQFU5NRH&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_5&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBGX2F3YAZ6MRCQ.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 512 GB), 
+ Price of model is: ₹1,04,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itmdbe5ac49590db?pid=MOBGX2F3SN4R8GHF&lid=LSTMOBGX2F3SN4R8GHFUVLXKX&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_6&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBGX2F3SN4R8GHF.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24+ 5G (Onyx Black, 512 GB), 
+ Price of model is: ₹1,04,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itme2d93d42550ad?pid=MOBGX2F3YAZ6MRCQ&lid=LSTMOBGX2F3YAZ6MRCQFU5NRH&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_7&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBGX2F3YAZ6MRCQ.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 512 GB), 
+ Price of model is: ₹1,04,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itmdbe5ac49590db?pid=MOBGX2F3SN4R8GHF&lid=LSTMOBGX2F3SN4R8GHFUVLXKX&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_6&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBGX2F3SN4R8GHF.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 256 GB), 
+ Price of model is: ₹94,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itm46fc37ddc7255?pid=MOBGX2F3GDX7QYFT&lid=LSTMOBGX2F3GDX7QYFTDDMJ7Z&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_8&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBGX2F3GDX7QYFT.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 256 GB), 
+ Price of model is: ₹94,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itm46fc37ddc7255?pid=MOBGX2F3GDX7QYFT&lid=LSTMOBGX2F3GDX7QYFTDDMJ7Z&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_7&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBGX2F3GDX7QYFT.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24+ 5G (Onyx Black, 256 GB), 
+ Price of model is: ₹94,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-256-gb/p/itm325da4a26d7bb?pid=MOBGX2F3HVJYNHUV&lid=LSTMOBGX2F3HVJYNHUVP4L3WU&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_9&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBGX2F3HVJYNHUV.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24+ 5G (Onyx Black, 256 GB), 
+ Price of model is: ₹94,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-256-gb/p/itm325da4a26d7bb?pid=MOBGX2F3HVJYNHUV&lid=LSTMOBGX2F3HVJYNHUVP4L3WU&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_8&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBGX2F3HVJYNHUV.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 Plus 5G (Cream, 512 GB), 
+ Price of model is: ₹94,000, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-plus-5g-cream-512-gb/p/itm1f3bef850ef01?pid=MOBGMFFXHKGEXXGZ&lid=LSTMOBGMFFXHKGEXXGZCN8Z4O&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_10&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBGMFFXHKGEXXGZ.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Onyx Black, 512 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itm210a5a47ed251?pid=MOBGX2F3FEUH6PKS&lid=LSTMOBGX2F3FEUH6PKSNYKMCU&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_9&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBGX2F3FEUH6PKS.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Amber Yellow, 512 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-512-gb/p/itm6225fa9b0990b?pid=MOBGX2F3VFMYCHCX&lid=LSTMOBGX2F3VFMYCHCXJQ83UW&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_10&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBGX2F3VFMYCHCX.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 Ultra 5G (Green, 256 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-green-256-gb/p/itm77dc35f7779a4?pid=MOBGMFFX32WUYXUJ&lid=LSTMOBGMFFX32WUYXUJEUVNIW&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_11&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBGMFFX32WUYXUJ.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 Ultra 5G (Cream, 256 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-256-gb/p/itm322ed1a040dec?pid=MOBGMFFX44FGHNHV&lid=LSTMOBGMFFX44FGHNHVKDIBNL&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_12&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBGMFFX44FGHNHV.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Cobalt Violet, 512 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itm0d5ed926087c7?pid=MOBGX2F3V52SBYMZ&lid=LSTMOBGX2F3V52SBYMZKEWTB0&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_11&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBGX2F3V52SBYMZ.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+Links found: 24
+Prices found: 24
+Model names found: 24
+The Model Name is: SAMSUNG Galaxy S24 5G (Cobalt Violet, 512 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itm0d5ed926087c7?pid=MOBGX2F3V52SBYMZ&lid=LSTMOBGX2F3V52SBYMZKEWTB0&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_13&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBGX2F3V52SBYMZ.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Cobalt Violet, 256 GB), 
+ Price of model is: ₹79,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itme4c78903b0c9f?pid=MOBGX2F3GNSJZ23R&lid=LSTMOBGX2F3GNSJZ23REJ6ZQ8&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_12&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBGX2F3GNSJZ23R.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Onyx Black, 512 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itm210a5a47ed251?pid=MOBGX2F3FEUH6PKS&lid=LSTMOBGX2F3FEUH6PKSNYKMCU&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_14&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBGX2F3FEUH6PKS.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 512 GB), 
+ Price of model is: ₹1,39,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-512-gb/p/itm463827d6eb2be?pid=MOBGX2F3XNW3HK8K&lid=LSTMOBGX2F3XNW3HK8KCQXMCT&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_1&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBGX2F3XNW3HK8K.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Onyx Black, 256 GB), 
+ Price of model is: ₹79,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-256-gb/p/itm0456c01739016?pid=MOBGX2F3ZUBMWBGP&lid=LSTMOBGX2F3ZUBMWBGPME7BYW&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_13&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBGX2F3ZUBMWBGP.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 256 GB), 
+ Price of model is: ₹1,29,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-256-gb/p/itm12ef5ea0212ed?pid=MOBGX2F3RQKKKTAW&lid=LSTMOBGX2F3RQKKKTAWKAVWET&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_2&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBGX2F3RQKKKTAW.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Amber Yellow, 512 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-512-gb/p/itm6225fa9b0990b?pid=MOBGX2F3VFMYCHCX&lid=LSTMOBGX2F3VFMYCHCXJQ83UW&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_15&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBGX2F3VFMYCHCX.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Amber Yellow, 256 GB), 
+ Price of model is: ₹79,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-256-gb/p/itmebc700bb8d159?pid=MOBGX2F3TYAVSQJC&lid=LSTMOBGX2F3TYAVSQJCZEHPSQ&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_14&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBGX2F3TYAVSQJC.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S22 Plus 5G (Green, 256 GB), 
+ Price of model is: ₹88,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s22-plus-5g-green-256-gb/p/itmc442739abe1a1?pid=MOBGGG2YGHC42XMF&lid=LSTMOBGGG2YGHC42XMFCUR4NX&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_16&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBGGG2YGHC42XMF.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 256 GB), 
+ Price of model is: ₹1,29,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-256-gb/p/itmd4f51262e3e6b?pid=MOBGX2F38JBJGZSE&lid=LSTMOBGX2F38JBJGZSELMVCH5&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBGX2F38JBJGZSE.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Cobalt Violet, 128 GB), 
+ Price of model is: ₹74,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-128-gb/p/itma2ec54ed01030?pid=MOBHYJ6Q3ZAFJTF7&lid=LSTMOBHYJ6Q3ZAFJTF7GUPLRR&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_15&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBHYJ6Q3ZAFJTF7.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 Ultra 5G (Titanium Yellow, 256 GB), 
+ Price of model is: ₹1,29,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-yellow-256-gb/p/itmeda50bc408d7d?pid=MOBHFRB2F96W6YYS&lid=LSTMOBHFRB2F96W6YYSRNYU8G&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_4&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBHFRB2F96W6YYS.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Amber Yellow, 256 GB), 
+ Price of model is: ₹79,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-256-gb/p/itmebc700bb8d159?pid=MOBGX2F3TYAVSQJC&lid=LSTMOBGX2F3TYAVSQJCZEHPSQ&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_17&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBGX2F3TYAVSQJC.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Amber Yellow, 128 GB), 
+ Price of model is: ₹74,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-128-gb/p/itmc7715e16403d1?pid=MOBHYJ6QMSGJG28G&lid=LSTMOBHYJ6QMSGJG28GKEE5UE&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_16&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBHYJ6QMSGJG28G.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Cobalt Violet, 256 GB), 
+ Price of model is: ₹79,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itme4c78903b0c9f?pid=MOBGX2F3GNSJZ23R&lid=LSTMOBGX2F3GNSJZ23REJ6ZQ8&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_18&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBGX2F3GNSJZ23R.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 Ultra 5G (Cream, 512 GB), 
+ Price of model is: ₹1,24,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-512-gb/p/itm1db5d333d4ee1?pid=MOBGMFFXEHJGRUXK&lid=LSTMOBGMFFXEHJGRUXKYBVAQY&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_5&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBGMFFXEHJGRUXK.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Marble Gray, 128 GB), 
+ Price of model is: ₹70,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-marble-gray-128-gb/p/itmd5309d6e0a151?pid=MOBHYJ6QZP2UA4X9&lid=LSTMOBHYJ6QZP2UA4X90LSJBH&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_17&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBHYJ6QZP2UA4X9.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Onyx Black, 256 GB), 
+ Price of model is: ₹79,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-256-gb/p/itm0456c01739016?pid=MOBGX2F3ZUBMWBGP&lid=LSTMOBGX2F3ZUBMWBGPME7BYW&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_19&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBGX2F3ZUBMWBGP.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 512 GB), 
+ Price of model is: ₹1,04,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itmdbe5ac49590db?pid=MOBGX2F3SN4R8GHF&lid=LSTMOBGX2F3SN4R8GHFUVLXKX&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_6&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBGX2F3SN4R8GHF.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S22 Plus 5G (Phantom Black, 128 GB), 
+ Price of model is: ₹69,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s22-plus-5g-phantom-black-128-gb/p/itm7fd318a27dcd7?pid=MOBGGG2YUGAYANRQ&lid=LSTMOBGGG2YUGAYANRQQF31UI&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_18&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBGGG2YUGAYANRQ.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Amber Yellow, 128 GB), 
+ Price of model is: ₹74,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-128-gb/p/itmc7715e16403d1?pid=MOBHYJ6QMSGJG28G&lid=LSTMOBHYJ6QMSGJG28GKEE5UE&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_20&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBHYJ6QMSGJG28G.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24+ 5G (Onyx Black, 512 GB), 
+ Price of model is: ₹1,04,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itme2d93d42550ad?pid=MOBGX2F3YAZ6MRCQ&lid=LSTMOBGX2F3YAZ6MRCQFU5NRH&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_7&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBGX2F3YAZ6MRCQ.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S22 Plus 5G (Green, 256 GB), 
+ Price of model is: ₹88,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s22-plus-5g-green-256-gb/p/itmc442739abe1a1?pid=MOBGGG2YGHC42XMF&lid=LSTMOBGGG2YGHC42XMFCUR4NX&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_19&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBGGG2YGHC42XMF.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Marble Gray, 128 GB), 
+ Price of model is: ₹74,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-marble-gray-128-gb/p/itmd5309d6e0a151?pid=MOBHYJ6QZP2UA4X9&lid=LSTMOBHYJ6QZP2UA4X9WSTBPZ&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_21&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBHYJ6QZP2UA4X9.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 256 GB), 
+ Price of model is: ₹94,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itm46fc37ddc7255?pid=MOBGX2F3GDX7QYFT&lid=LSTMOBGX2F3GDX7QYFTDDMJ7Z&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_8&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBGX2F3GDX7QYFT.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S7 (Gold Platinum, 32 GB), 
+ Price of model is: ₹46,000, 
+ Link: https://www.flipkart.com/samsung-galaxy-s7-gold-platinum-32-gb/p/itmeuyda4qgqetc6?pid=MOBEGFZPWJHYT7NX&lid=LSTMOBEGFZPWJHYT7NXKNHWSQ&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_20&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBEGFZPWJHYT7NX.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Cobalt Violet, 128 GB), 
+ Price of model is: ₹74,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-128-gb/p/itma2ec54ed01030?pid=MOBHYJ6Q3ZAFJTF7&lid=LSTMOBHYJ6Q3ZAFJTF7GUPLRR&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_22&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBHYJ6Q3ZAFJTF7.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 5G (Green, 128 GB), 
+ Price of model is: ₹44,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-5g-green-128-gb/p/itm7cdd081996dc8?pid=MOBGNPGYWGZAUZGK&lid=LSTMOBGNPGYWGZAUZGKLQSOT0&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_21&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBGNPGYWGZAUZGK.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24+ 5G (Onyx Black, 256 GB), 
+ Price of model is: ₹94,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-256-gb/p/itm325da4a26d7bb?pid=MOBGX2F3HVJYNHUV&lid=LSTMOBGX2F3HVJYNHUVP4L3WU&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_9&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBGX2F3HVJYNHUV.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S22 Plus 5G (Phantom Black, 128 GB), 
+ Price of model is: ₹69,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s22-plus-5g-phantom-black-128-gb/p/itm7fd318a27dcd7?pid=MOBGGG2YUGAYANRQ&lid=LSTMOBGGG2YUGAYANRQQF31UI&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_23&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBGGG2YUGAYANRQ.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 FE (Graphite, 256 GB), 
+ Price of model is: ₹38,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-fe-graphite-256-gb/p/itm3dd39c0d1ec9c?pid=MOBGVTA2GWPSR57X&lid=LSTMOBGVTA2GWPSR57XIIBGXC&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_22&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBGVTA2GWPSR57X.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 Plus 5G (Cream, 512 GB), 
+ Price of model is: ₹94,000, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-plus-5g-cream-512-gb/p/itm1f3bef850ef01?pid=MOBGMFFXHKGEXXGZ&lid=LSTMOBGMFFXHKGEXXGZCN8Z4O&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_10&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBGMFFXHKGEXXGZ.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 5G (Phantom Black, 256 GB), 
+ Price of model is: ₹49,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-5g-phantom-black-256-gb/p/itm347e695feffe7?pid=MOBGMFFXPNSHBGRC&lid=LSTMOBGMFFXPNSHBGRCPG5BZP&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_24&otracker=search&fm=Search&iid=71f989f4-5b78-4a03-9599-d2d3f13dae03.MOBGMFFXPNSHBGRC.SEARCH&ppt=sp&ppn=sp&ssid=58qcy4b91itpy60w1723020959726&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 Ultra 5G (Green, 256 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-green-256-gb/p/itm77dc35f7779a4?pid=MOBGMFFX32WUYXUJ&lid=LSTMOBGMFFX32WUYXUJEUVNIW&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_11&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBGMFFX32WUYXUJ.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Aug 07, 2024 2:25:41 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (127.0.6533.88) detected in PATH at /Users/santoshsingh/Automation/drivers/chromedriver might not be compatible with the detected chrome version (127.0.6533.89); currently, chromedriver 127.0.6533.99 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
+Aug 07, 2024 2:25:41 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (127.0.6533.88) detected in PATH at /Users/santoshsingh/Automation/drivers/chromedriver might not be compatible with the detected chrome version (127.0.6533.89); currently, chromedriver 127.0.6533.99 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
+Aug 07, 2024 2:25:41 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (127.0.6533.88) detected in PATH at /Users/santoshsingh/Automation/drivers/chromedriver might not be compatible with the detected chrome version (127.0.6533.89); currently, chromedriver 127.0.6533.99 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
+Aug 07, 2024 2:25:41 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (127.0.6533.88) detected in PATH at /Users/santoshsingh/Automation/drivers/chromedriver might not be compatible with the detected chrome version (127.0.6533.89); currently, chromedriver 127.0.6533.99 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
+Aug 07, 2024 2:25:41 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (127.0.6533.88) detected in PATH at /Users/santoshsingh/Automation/drivers/chromedriver might not be compatible with the detected chrome version (127.0.6533.89); currently, chromedriver 127.0.6533.99 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
+Aug 07, 2024 2:25:49 PM org.openqa.selenium.devtools.CdpEndpointFinder getCdpEndPoint
+WARNING: Unable to connect to determine websocket url: java.net.ConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:5319
+Aug 07, 2024 2:25:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 127
+Aug 07, 2024 2:25:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 127.0.6533.73. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Aug 07, 2024 2:25:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 17
+Aug 07, 2024 2:25:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 17.3. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Aug 07, 2024 2:25:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Aug 07, 2024 2:25:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Aug 07, 2024 2:25:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 127
+Aug 07, 2024 2:25:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 127.0.2651.74. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Aug 07, 2024 2:25:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 127
+Aug 07, 2024 2:25:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 127.0. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="flipkartSearchFeature" classname="parallel_Testing.parallelTest" time="26.996">
+    <system-out><![CDATA[The Model Name is: SAMSUNG Galaxy S23 Ultra 5G (Cream, 256 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-256-gb/p/itm322ed1a040dec?pid=MOBGMFFX44FGHNHV&lid=LSTMOBGMFFX44FGHNHVKDIBNL&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_12&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBGMFFX44FGHNHV.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Cobalt Violet, 512 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itm0d5ed926087c7?pid=MOBGX2F3V52SBYMZ&lid=LSTMOBGX2F3V52SBYMZKEWTB0&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_13&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBGX2F3V52SBYMZ.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Onyx Black, 512 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itm210a5a47ed251?pid=MOBGX2F3FEUH6PKS&lid=LSTMOBGX2F3FEUH6PKSNYKMCU&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_14&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBGX2F3FEUH6PKS.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Amber Yellow, 512 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-512-gb/p/itm6225fa9b0990b?pid=MOBGX2F3VFMYCHCX&lid=LSTMOBGX2F3VFMYCHCXJQ83UW&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_15&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBGX2F3VFMYCHCX.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S22 Plus 5G (Green, 256 GB), 
+ Price of model is: ₹88,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s22-plus-5g-green-256-gb/p/itmc442739abe1a1?pid=MOBGGG2YGHC42XMF&lid=LSTMOBGGG2YGHC42XMFCUR4NX&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_16&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBGGG2YGHC42XMF.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+Links found: 24
+Prices found: 24
+Model names found: 24
+The Model Name is: SAMSUNG Galaxy S24 5G (Amber Yellow, 256 GB), 
+ Price of model is: ₹79,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-256-gb/p/itmebc700bb8d159?pid=MOBGX2F3TYAVSQJC&lid=LSTMOBGX2F3TYAVSQJCZEHPSQ&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_17&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBGX2F3TYAVSQJC.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 512 GB), 
+ Price of model is: ₹1,39,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-512-gb/p/itm463827d6eb2be?pid=MOBGX2F3XNW3HK8K&lid=LSTMOBGX2F3XNW3HK8KCQXMCT&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_1&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBGX2F3XNW3HK8K.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Cobalt Violet, 256 GB), 
+ Price of model is: ₹79,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itme4c78903b0c9f?pid=MOBGX2F3GNSJZ23R&lid=LSTMOBGX2F3GNSJZ23REJ6ZQ8&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_18&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBGX2F3GNSJZ23R.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 256 GB), 
+ Price of model is: ₹1,29,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-256-gb/p/itm12ef5ea0212ed?pid=MOBGX2F3RQKKKTAW&lid=LSTMOBGX2F3RQKKKTAWKAVWET&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_2&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBGX2F3RQKKKTAW.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Onyx Black, 256 GB), 
+ Price of model is: ₹79,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-256-gb/p/itm0456c01739016?pid=MOBGX2F3ZUBMWBGP&lid=LSTMOBGX2F3ZUBMWBGPME7BYW&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_19&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBGX2F3ZUBMWBGP.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 256 GB), 
+ Price of model is: ₹1,29,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-256-gb/p/itmd4f51262e3e6b?pid=MOBGX2F38JBJGZSE&lid=LSTMOBGX2F38JBJGZSELMVCH5&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBGX2F38JBJGZSE.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Amber Yellow, 128 GB), 
+ Price of model is: ₹74,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-128-gb/p/itmc7715e16403d1?pid=MOBHYJ6QMSGJG28G&lid=LSTMOBHYJ6QMSGJG28GKEE5UE&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_20&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBHYJ6QMSGJG28G.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 Ultra 5G (Titanium Yellow, 256 GB), 
+ Price of model is: ₹1,29,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-yellow-256-gb/p/itmeda50bc408d7d?pid=MOBHFRB2F96W6YYS&lid=LSTMOBHFRB2F96W6YYSRNYU8G&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_4&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBHFRB2F96W6YYS.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Marble Gray, 128 GB), 
+ Price of model is: ₹74,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-marble-gray-128-gb/p/itmd5309d6e0a151?pid=MOBHYJ6QZP2UA4X9&lid=LSTMOBHYJ6QZP2UA4X9WSTBPZ&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_21&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBHYJ6QZP2UA4X9.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 Ultra 5G (Cream, 512 GB), 
+ Price of model is: ₹1,24,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-512-gb/p/itm1db5d333d4ee1?pid=MOBGMFFXEHJGRUXK&lid=LSTMOBGMFFXEHJGRUXKYBVAQY&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_5&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBGMFFXEHJGRUXK.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Cobalt Violet, 128 GB), 
+ Price of model is: ₹74,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-128-gb/p/itma2ec54ed01030?pid=MOBHYJ6Q3ZAFJTF7&lid=LSTMOBHYJ6Q3ZAFJTF7GUPLRR&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_22&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBHYJ6Q3ZAFJTF7.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24+ 5G (Onyx Black, 512 GB), 
+ Price of model is: ₹1,04,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itme2d93d42550ad?pid=MOBGX2F3YAZ6MRCQ&lid=LSTMOBGX2F3YAZ6MRCQFU5NRH&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_6&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBGX2F3YAZ6MRCQ.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S22 Plus 5G (Phantom Black, 128 GB), 
+ Price of model is: ₹69,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s22-plus-5g-phantom-black-128-gb/p/itm7fd318a27dcd7?pid=MOBGGG2YUGAYANRQ&lid=LSTMOBGGG2YUGAYANRQQF31UI&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_23&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBGGG2YUGAYANRQ.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 512 GB), 
+ Price of model is: ₹1,04,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itmdbe5ac49590db?pid=MOBGX2F3SN4R8GHF&lid=LSTMOBGX2F3SN4R8GHFUVLXKX&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_7&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBGX2F3SN4R8GHF.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 5G (Phantom Black, 256 GB), 
+ Price of model is: ₹49,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-5g-phantom-black-256-gb/p/itm347e695feffe7?pid=MOBGMFFXPNSHBGRC&lid=LSTMOBGMFFXPNSHBGRCPG5BZP&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_24&otracker=search&fm=Search&iid=2d87ce69-226d-4514-9aa3-39d2d830cd28.MOBGMFFXPNSHBGRC.SEARCH&ppt=sp&ppn=sp&ssid=hskk2xrpgw0000001723020963819&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 256 GB), 
+ Price of model is: ₹94,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itm46fc37ddc7255?pid=MOBGX2F3GDX7QYFT&lid=LSTMOBGX2F3GDX7QYFTDDMJ7Z&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_8&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBGX2F3GDX7QYFT.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+]]></system-out>
+  </testcase>
+  <testcase name="flipkartSearchFeature" classname="parallel_Testing.parallelTest" time="32.652">
+    <system-out><![CDATA[The Model Name is: SAMSUNG Galaxy S24+ 5G (Onyx Black, 256 GB), 
+ Price of model is: ₹94,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-256-gb/p/itm325da4a26d7bb?pid=MOBGX2F3HVJYNHUV&lid=LSTMOBGX2F3HVJYNHUVP4L3WU&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_9&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBGX2F3HVJYNHUV.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 Plus 5G (Cream, 512 GB), 
+ Price of model is: ₹94,000, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-plus-5g-cream-512-gb/p/itm1f3bef850ef01?pid=MOBGMFFXHKGEXXGZ&lid=LSTMOBGMFFXHKGEXXGZCN8Z4O&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_10&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBGMFFXHKGEXXGZ.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 Ultra 5G (Green, 256 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-green-256-gb/p/itm77dc35f7779a4?pid=MOBGMFFX32WUYXUJ&lid=LSTMOBGMFFX32WUYXUJEUVNIW&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_11&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBGMFFX32WUYXUJ.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Cobalt Violet, 512 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itm0d5ed926087c7?pid=MOBGX2F3V52SBYMZ&lid=LSTMOBGX2F3V52SBYMZKEWTB0&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_12&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBGX2F3V52SBYMZ.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Onyx Black, 512 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itm210a5a47ed251?pid=MOBGX2F3FEUH6PKS&lid=LSTMOBGX2F3FEUH6PKSNYKMCU&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_13&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBGX2F3FEUH6PKS.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Amber Yellow, 512 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-512-gb/p/itm6225fa9b0990b?pid=MOBGX2F3VFMYCHCX&lid=LSTMOBGX2F3VFMYCHCXJQ83UW&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_14&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBGX2F3VFMYCHCX.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S22 Plus 5G (Green, 256 GB), 
+ Price of model is: ₹88,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s22-plus-5g-green-256-gb/p/itmc442739abe1a1?pid=MOBGGG2YGHC42XMF&lid=LSTMOBGGG2YGHC42XMFCUR4NX&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_15&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBGGG2YGHC42XMF.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Amber Yellow, 256 GB), 
+ Price of model is: ₹79,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-256-gb/p/itmebc700bb8d159?pid=MOBGX2F3TYAVSQJC&lid=LSTMOBGX2F3TYAVSQJCZEHPSQ&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_16&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBGX2F3TYAVSQJC.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Cobalt Violet, 256 GB), 
+ Price of model is: ₹79,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itme4c78903b0c9f?pid=MOBGX2F3GNSJZ23R&lid=LSTMOBGX2F3GNSJZ23REJ6ZQ8&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_17&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBGX2F3GNSJZ23R.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Onyx Black, 256 GB), 
+ Price of model is: ₹79,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-256-gb/p/itm0456c01739016?pid=MOBGX2F3ZUBMWBGP&lid=LSTMOBGX2F3ZUBMWBGPME7BYW&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_18&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBGX2F3ZUBMWBGP.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Amber Yellow, 128 GB), 
+ Price of model is: ₹74,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-128-gb/p/itmc7715e16403d1?pid=MOBHYJ6QMSGJG28G&lid=LSTMOBHYJ6QMSGJG28GKEE5UE&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_19&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBHYJ6QMSGJG28G.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Cobalt Violet, 128 GB), 
+ Price of model is: ₹74,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-128-gb/p/itma2ec54ed01030?pid=MOBHYJ6Q3ZAFJTF7&lid=LSTMOBHYJ6Q3ZAFJTF7GUPLRR&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_20&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBHYJ6Q3ZAFJTF7.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Marble Gray, 128 GB), 
+ Price of model is: ₹74,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-marble-gray-128-gb/p/itmd5309d6e0a151?pid=MOBHYJ6QZP2UA4X9&lid=LSTMOBHYJ6QZP2UA4X9WSTBPZ&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_21&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBHYJ6QZP2UA4X9.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S22 Plus 5G (Phantom Black, 128 GB), 
+ Price of model is: ₹69,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s22-plus-5g-phantom-black-128-gb/p/itm7fd318a27dcd7?pid=MOBGGG2YUGAYANRQ&lid=LSTMOBGGG2YUGAYANRQQF31UI&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_22&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBGGG2YUGAYANRQ.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 5G (Phantom Black, 256 GB), 
+ Price of model is: ₹49,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-5g-phantom-black-256-gb/p/itm347e695feffe7?pid=MOBGMFFXPNSHBGRC&lid=LSTMOBGMFFXPNSHBGRCPG5BZP&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_23&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBGMFFXPNSHBGRC.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 5G (Lavender, 256 GB), 
+ Price of model is: ₹49,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-5g-lavender-256-gb/p/itmfbae75e3840e1?pid=MOBGMFFXDQTGNWVK&lid=LSTMOBGMFFXDQTGNWVKWE3VH0&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_24&otracker=search&fm=Search&iid=23f03198-1f3a-4635-9ced-631978cdfb01.MOBGMFFXDQTGNWVK.SEARCH&ppt=sp&ppn=sp&ssid=aathhuoftpq1i4g01723020970698&qH=8e78838d0b7698a3
+
+]]></system-out>
+  </testcase>
+  <testcase name="flipkartSearchFeature" classname="parallel_Testing.parallelTest" time="47.301">
+    <system-out><![CDATA[The Model Name is: SAMSUNG Galaxy S21 FE 5G (Lavender, 128 GB), 
+ Price of model is: ₹39,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s21-fe-5g-lavender-128-gb/p/itm3b094762fb621?pid=MOBGBNBDZJ5Q3RXK&lid=LSTMOBGBNBDZJ5Q3RXKUCNNBS&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_23&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBGBNBDZJ5Q3RXK.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 FE (Mint, 256 GB), 
+ Price of model is: ₹38,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-fe-mint-256-gb/p/itmdb72279972171?pid=MOBGVTA2R8ZH4G3C&lid=LSTMOBGVTA2R8ZH4G3C8XDOZH&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_24&otracker=search&fm=Search&iid=a7f8dd70-2230-4125-aede-d793d9b05216.MOBGVTA2R8ZH4G3C.SEARCH&ppt=sp&ppn=sp&ssid=4pm447ol0un5pmo01723020959452&qH=8e78838d0b7698a3
+
+]]></system-out>
+  </testcase>
+  <testcase name="flipkartSearchFeature" classname="parallel_Testing.parallelTest" time="63.734">
+    <system-out><![CDATA[Links found: 24
+Prices found: 24
+Model names found: 24
+The Model Name is: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 512 GB), 
+ Price of model is: ₹1,39,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-512-gb/p/itm463827d6eb2be?pid=MOBGX2F3XNW3HK8K&lid=LSTMOBGX2F3XNW3HK8KCQXMCT&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_1&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBGX2F3XNW3HK8K.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 256 GB), 
+ Price of model is: ₹1,29,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-256-gb/p/itm12ef5ea0212ed?pid=MOBGX2F3RQKKKTAW&lid=LSTMOBGX2F3RQKKKTAWKAVWET&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_2&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBGX2F3RQKKKTAW.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 256 GB), 
+ Price of model is: ₹1,29,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-256-gb/p/itmd4f51262e3e6b?pid=MOBGX2F38JBJGZSE&lid=LSTMOBGX2F38JBJGZSELMVCH5&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBGX2F38JBJGZSE.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 Ultra 5G (Titanium Yellow, 256 GB), 
+ Price of model is: ₹1,29,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-yellow-256-gb/p/itmeda50bc408d7d?pid=MOBHFRB2F96W6YYS&lid=LSTMOBHFRB2F96W6YYSRNYU8G&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_4&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBHFRB2F96W6YYS.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 Ultra 5G (Cream, 512 GB), 
+ Price of model is: ₹1,24,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-512-gb/p/itm1db5d333d4ee1?pid=MOBGMFFXEHJGRUXK&lid=LSTMOBGMFFXEHJGRUXKYBVAQY&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_5&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBGMFFXEHJGRUXK.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 512 GB), 
+ Price of model is: ₹1,04,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itmdbe5ac49590db?pid=MOBGX2F3SN4R8GHF&lid=LSTMOBGX2F3SN4R8GHFUVLXKX&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_6&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBGX2F3SN4R8GHF.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24+ 5G (Onyx Black, 512 GB), 
+ Price of model is: ₹1,04,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itme2d93d42550ad?pid=MOBGX2F3YAZ6MRCQ&lid=LSTMOBGX2F3YAZ6MRCQFU5NRH&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_7&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBGX2F3YAZ6MRCQ.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 256 GB), 
+ Price of model is: ₹94,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itm46fc37ddc7255?pid=MOBGX2F3GDX7QYFT&lid=LSTMOBGX2F3GDX7QYFTDDMJ7Z&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_8&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBGX2F3GDX7QYFT.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24+ 5G (Onyx Black, 256 GB), 
+ Price of model is: ₹94,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-256-gb/p/itm325da4a26d7bb?pid=MOBGX2F3HVJYNHUV&lid=LSTMOBGX2F3HVJYNHUVP4L3WU&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_9&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBGX2F3HVJYNHUV.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 Plus 5G (Cream, 512 GB), 
+ Price of model is: ₹94,000, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-plus-5g-cream-512-gb/p/itm1f3bef850ef01?pid=MOBGMFFXHKGEXXGZ&lid=LSTMOBGMFFXHKGEXXGZCN8Z4O&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_10&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBGMFFXHKGEXXGZ.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 Ultra 5G (Green, 256 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-green-256-gb/p/itm77dc35f7779a4?pid=MOBGMFFX32WUYXUJ&lid=LSTMOBGMFFX32WUYXUJEUVNIW&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_11&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBGMFFX32WUYXUJ.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 Ultra 5G (Cream, 256 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-256-gb/p/itm322ed1a040dec?pid=MOBGMFFX44FGHNHV&lid=LSTMOBGMFFX44FGHNHVKDIBNL&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_12&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBGMFFX44FGHNHV.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Cobalt Violet, 512 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itm0d5ed926087c7?pid=MOBGX2F3V52SBYMZ&lid=LSTMOBGX2F3V52SBYMZKEWTB0&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_13&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBGX2F3V52SBYMZ.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Onyx Black, 512 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itm210a5a47ed251?pid=MOBGX2F3FEUH6PKS&lid=LSTMOBGX2F3FEUH6PKSNYKMCU&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_14&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBGX2F3FEUH6PKS.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Amber Yellow, 512 GB), 
+ Price of model is: ₹89,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-512-gb/p/itm6225fa9b0990b?pid=MOBGX2F3VFMYCHCX&lid=LSTMOBGX2F3VFMYCHCXJQ83UW&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_15&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBGX2F3VFMYCHCX.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S22 Plus 5G (Green, 256 GB), 
+ Price of model is: ₹88,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s22-plus-5g-green-256-gb/p/itmc442739abe1a1?pid=MOBGGG2YGHC42XMF&lid=LSTMOBGGG2YGHC42XMFCUR4NX&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_16&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBGGG2YGHC42XMF.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Amber Yellow, 256 GB), 
+ Price of model is: ₹79,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-256-gb/p/itmebc700bb8d159?pid=MOBGX2F3TYAVSQJC&lid=LSTMOBGX2F3TYAVSQJCZEHPSQ&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_17&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBGX2F3TYAVSQJC.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Cobalt Violet, 256 GB), 
+ Price of model is: ₹79,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itme4c78903b0c9f?pid=MOBGX2F3GNSJZ23R&lid=LSTMOBGX2F3GNSJZ23REJ6ZQ8&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_18&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBGX2F3GNSJZ23R.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Onyx Black, 256 GB), 
+ Price of model is: ₹79,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-256-gb/p/itm0456c01739016?pid=MOBGX2F3ZUBMWBGP&lid=LSTMOBGX2F3ZUBMWBGPME7BYW&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_19&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBGX2F3ZUBMWBGP.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Amber Yellow, 128 GB), 
+ Price of model is: ₹74,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-128-gb/p/itmc7715e16403d1?pid=MOBHYJ6QMSGJG28G&lid=LSTMOBHYJ6QMSGJG28GKEE5UE&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_20&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBHYJ6QMSGJG28G.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Marble Gray, 128 GB), 
+ Price of model is: ₹74,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-marble-gray-128-gb/p/itmd5309d6e0a151?pid=MOBHYJ6QZP2UA4X9&lid=LSTMOBHYJ6QZP2UA4X9WSTBPZ&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_21&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBHYJ6QZP2UA4X9.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S24 5G (Cobalt Violet, 128 GB), 
+ Price of model is: ₹74,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-128-gb/p/itma2ec54ed01030?pid=MOBHYJ6Q3ZAFJTF7&lid=LSTMOBHYJ6Q3ZAFJTF7GUPLRR&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_22&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBHYJ6Q3ZAFJTF7.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S22 Plus 5G (Phantom Black, 128 GB), 
+ Price of model is: ₹69,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s22-plus-5g-phantom-black-128-gb/p/itm7fd318a27dcd7?pid=MOBGGG2YUGAYANRQ&lid=LSTMOBGGG2YUGAYANRQQF31UI&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_23&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBGGG2YUGAYANRQ.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+The Model Name is: SAMSUNG Galaxy S23 5G (Phantom Black, 256 GB), 
+ Price of model is: ₹49,999, 
+ Link: https://www.flipkart.com/samsung-galaxy-s23-5g-phantom-black-256-gb/p/itm347e695feffe7?pid=MOBGMFFXPNSHBGRC&lid=LSTMOBGMFFXPNSHBGRCPG5BZP&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_24&otracker=search&fm=Search&iid=48110c12-7d6e-4f8c-8de3-ead71ebeafb6.MOBGMFFXPNSHBGRC.SEARCH&ppt=sp&ppn=sp&ssid=6s2if7ifwg0000001723020990059&qH=8e78838d0b7698a3
+
+]]></system-out>
+  </testcase>
+</testsuite>
